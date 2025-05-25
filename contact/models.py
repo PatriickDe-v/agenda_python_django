@@ -4,4 +4,4 @@ from django.db import models
  
 #Essa classe herda do models do Model
 class Contact(models.Model):
-    first_name = models.CharField(max_length=50);
+    first_name = models.CharField(max_length=50)
